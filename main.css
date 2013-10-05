@@ -1,16 +1,17 @@
 h1{
 	font-size:48px;
+    font-family:arial,sans-serif;
 	margin:10px;
 }
 p{
-	font-size:16px;
+	font-size:20px;
 	margin:10px;
 }
 
 .navbar{
 	background-color: white;
 	float: right;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .navbar ul li{
 	display: inline;
@@ -24,7 +25,7 @@ p{
 	font-family:sans-serif;
 	color:#222222;
 	padding:25px 5px 10px 8px;
-	font-size:14px;
+	font-size:15px;
 	vertical-align:center;
 	align:right;
 	margin:10px;
@@ -38,14 +39,15 @@ p{
     margin-right: auto;
     width: 960px;
     padding-top: 85px;
+    background-color:white;
 }
 .box {
-    width: 165px;
-    height:100px;
+    width: 250px;
+    height:80px;
     display: inline-block;
     position: relative;
     margin: 0 18px;
-    padding: 40px 14px;
+    padding: 30px 10px;
     border: 1px solid #e8e8e8;
     font-family:arial;
     border-radius: 5px;
@@ -75,4 +77,19 @@ p{
     font-size: 15px;
     line-height: 20px;
     color: #000000;
+}
+#target, #error, #guess, #err, #feedback{
+    font-size: 20px;
+}
+#play, #hint{
+    font-size:20px;
+    height: 16px;
+    width: 50px;
+    background-color:light-blue;
+}
+#hot{
+    color:red;
+}
+#cold{
+    color:blue;
 }

@@ -1,14 +1,9 @@
-/* -------- TODO ----------------- */
-// CSS makeover
-// jQuery animation
-
 $(document).ready(function(){
 	var target = Math.floor(100 * Math.random());
 	var dif;
 	var lastdif;
 	var guesses = '';
-	var i = 0;
-	var g;
+	var guess;
 
 	$('#hint').click(function(){
 		$('#target').val(target);		
@@ -17,17 +12,16 @@ $(document).ready(function(){
 	$('#play').click(function(){
 		target = Math.floor(100 * Math.random());
 		guesses = '';
-		i = 0;
 	});
 
 	$('#guess').change(function(){
-		g = $('#guess').val();
+		guess = $('#guess').val();
 
-		if (isNaN(g)){
+		if (isNaN(guess)){
 			$('#feedback').val('Enter a number');
 		}
 		else{
-			dif = g - target;
+			dif = guess - target;
 			if (dif == 0){
 				$('#feedback').val('You won!');
 			}
@@ -43,15 +37,16 @@ $(document).ready(function(){
 					dif = Math.abs(dif);
 					if (dif > lastdif){
 						$('#feedback').val('colder');
+						$('#feedback').css("color", "blue");
 					}else{
 						$('#feedback').val('warmer');			
+						$('#feedback').css("color", "red");
 					}
 					lastdif = dif;
 				}
-				guesses += g + ', ';
+				guesses += guess + ', ';
 				$('#err').val(guesses);
 			}
 		}
 	});
-
 })
