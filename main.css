@@ -1,0 +1,78 @@
+h1{
+	font-size:48px;
+	margin:10px;
+}
+p{
+	font-size:16px;
+	margin:10px;
+}
+
+.navbar{
+	background-color: white;
+	float: right;
+	margin-top: 20px;
+}
+.navbar ul li{
+	display: inline;
+	color: #30669c;
+}
+.navbar ul li a:hover{
+	color: #18AFE0;
+}
+.navbar a{
+	text-decoration:none;	
+	font-family:sans-serif;
+	color:#222222;
+	padding:25px 5px 10px 8px;
+	font-size:14px;
+	vertical-align:center;
+	align:right;
+	margin:10px;
+}
+.navbar a:hover{
+	color:red;
+}
+.general {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    padding-top: 85px;
+}
+.box {
+    width: 165px;
+    height:100px;
+    display: inline-block;
+    position: relative;
+    margin: 0 18px;
+    padding: 40px 14px;
+    border: 1px solid #e8e8e8;
+    font-family:arial;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(#ffffff, #f0f0f0);
+    background: -moz-linear-gradient(#ffffff, #f0f0f0);
+    background: -ms-linear-gradient(#ffffff, #f0f0f0);
+    background: -o-linear-gradient(#ffffff, #f0f0f0);
+    background: linear-gradient(#ffffff, #f0f0f0);
+    -webkit-box-shadow: 0px 0px 2px rgba(50, 50, 50, 0.15);
+       -moz-box-shadow: 0px 0px 2px rgba(50, 50, 50, 0.15);
+            box-shadow: 0px 0px 2px rgba(50, 50, 50, 0.15);
+}
+.box-title {
+    font-size: 24px;
+    color: #336699;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.box-sub-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #cc0000;
+    margin-top: 14px;
+    margin-bottom: 16px;
+}
+.box-description {
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
