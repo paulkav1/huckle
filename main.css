@@ -52,11 +52,18 @@ p{
 #guess{
     font-size: 20px;
     border: 1px solid black;
+    width:3em;
 }
 #target, #error, #err, #feedback{
     font-size: 20px;
     border: 0px dotted #e8e8e8;
     background-color:light-blue;   
+}
+#err{
+    width:240px;
+}
+#target{
+    width:3em;
 }
 #play, #hint{
     font-size:20px;
