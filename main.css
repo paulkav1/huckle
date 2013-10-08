@@ -60,16 +60,16 @@ p{
     background-color:light-blue;   
 }
 #err{
-    width:240px;
+    width:480px;
 }
 #target{
     width:3em;
 }
 #play, #hint{
-    font-size:20px;
-    height: 24px;
+    font-size:24px;
+    height: 28px;
     width: 80px;
-    background-color:light-blue;
+    background-color:green;
 }
 #hot{
     color:red;
