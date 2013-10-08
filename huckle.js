@@ -5,20 +5,23 @@ $(document).ready(function(){
 	var guesses = '';
 	var guess;
 
-	$('#hint').click(function(){
+	$('#hint').click(function(){ // aka cheat
 		$('#target').val(target);		
 	});
 
-	$('#play').click(function(){
+	$('#play').click(function(){ // aka reset
 		target = Math.floor(100 * Math.random());
 		guesses = '';
 	});
 
 	$('#guess').change(function(){
 		guess = $('#guess').val();
+		playGame(guess);
+	});
 
+	function playGame(guess){
 		if (isNaN(guess)){
-			$('#feedback').val('Enter a number');
+			$('#feedback').val('Enter a number from 0 to 100');
 		}
 		else{
 			dif = guess - target;
@@ -48,5 +51,5 @@ $(document).ready(function(){
 				$('#err').val(guesses);
 			}
 		}
-	});
-})
+	}
+});
