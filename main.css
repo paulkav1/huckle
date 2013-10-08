@@ -41,39 +41,17 @@ p{
     padding-top: 80px;
     background-color:white;
 }
-.box {
-    width: 200px;
-    height:75px;
-    display: inline-block;
-    position: relative;
-    margin: 0 10px;
-    padding: 10px 10px;
-    border: 1px solid #e8e8e8;
-    font-family:arial;
-    border-radius: 5px;
-}
-.box-title {
-    font-size: 24px;
-    color: #336699;
-    font-weight: bold;
-    text-decoration: underline;
-}
 .box-sub-title {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     color: #cc0000;
-    margin-top: 14px;
-    margin-bottom: 16px;
-}
-.box-description {
-    font-size: 15px;
-    line-height: 20px;
-    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #guess{
     font-size: 20px;
 }
-#target, #error, #guess, #err, #feedback{
+#target, #error, #err, #feedback{
     font-size: 20px;
     border: 0px dotted #e8e8e8;
     background-color:light-blue;   
