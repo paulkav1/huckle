@@ -41,13 +41,21 @@ p{
     padding-top: 80px;
     background-color:white;
 }
+.title0 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family:sans-serif;    
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
 .title1 {
     font-size: 24px;
     font-weight: bold;
     font-family:sans-serif;    
     color: #ccbbaa;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 24px;
+    margin-bottom: 8px;
 }
 #guess{
     font-size: 20px;
