@@ -38,7 +38,7 @@ p{
     margin-left: auto;
     margin-right: auto;
     width: 960px;
-    padding-top: 85px;
+    padding-top: 80px;
     background-color:white;
 }
 .box {
@@ -47,7 +47,7 @@ p{
     display: inline-block;
     position: relative;
     margin: 0 10px;
-    padding: 20px 10px;
+    padding: 10px 10px;
     border: 1px solid #e8e8e8;
     font-family:arial;
     border-radius: 5px;
@@ -75,7 +75,8 @@ p{
 }
 #target, #error, #guess, #err, #feedback{
     font-size: 20px;
-    border: 0px solid white;
+    border: 0px dotted #e8e8e8;
+    background-color:light-blue;   
 }
 #play, #hint{
     font-size:20px;

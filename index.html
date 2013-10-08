@@ -20,15 +20,16 @@
   <div class="general">
     <div class="headline">
         <h1 class="main-text"><span id="hot">Hot</span> or <span id="cold">Cold</span></h1>
-    <div id="msg"></div>
         <p><input id="play" type="button" name="play" value="Play">
           <input id="hint" type="button" name="hint" value="Hint"></p>        
-        <p><input id="feedback" type="text" name="feedback" value="?"></p>      
     </div>        
     <div class="box" id="box1"> 
-        <p class="box-sub-title">Guess</p>
+        <p class="box-sub-title">Guess: </p>
         <p><input id="guess" type="text" name="guess" value="?"></p>               
     </div>
+        <div id="msg">        
+          <p><input id="feedback" type="text" name="feedback" value="?"></p>      
+        </div>
     </div>
     <div class="box" id="box2">
         <p class="box-sub-title">Guesses</p>
@@ -38,6 +39,5 @@
         <p class="box-sub-title">Target</p>
         <p><input id="target" type="text"></p>      
     </div>
-
 </body>
 </html>
