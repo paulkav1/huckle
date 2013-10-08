@@ -54,7 +54,7 @@ p{
     border: 1px solid black;
     width:3em;
 }
-#target, #error, #err, #feedback{
+#target, #err, #feedback{
     font-size: 20px;
     border: 0px dotted #e8e8e8;
     background-color:light-blue;   
