@@ -7,32 +7,6 @@ p{
 	font-size:24px;
 	margin:10px;
 }
-
-.navbar{
-	background-color: white;
-	float: right;
-	margin-top: 10px;
-}
-.navbar ul li{
-	display: inline;
-	color: #30669c;
-}
-.navbar ul li a:hover{
-	color: #18AFE0;
-}
-.navbar a{
-	text-decoration:none;	
-	font-family:sans-serif;
-	color:#222222;
-	padding:25px 5px 10px 8px;
-	font-size:15px;
-	vertical-align:center;
-	align:right;
-	margin:10px;
-}
-.navbar a:hover{
-	color:red;
-}
 .general {
     text-align: center;
     margin-left: auto;
