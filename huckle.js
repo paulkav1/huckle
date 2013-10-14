@@ -1,5 +1,6 @@
-// Javascript. All the $() functions are from the JQuery library.
-$(document).ready(function(){ //run after the page is initially loaded
+$(document).ready(function(){ 
+	// Javascript. All the $() functions are from the JQuery library.
+	// run after the page is initially loaded
 	// variables used in game
 	var target = Math.floor(100 * Math.random());
 	var dif;
